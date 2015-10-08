@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8">
+    <title>Добавить совет</title>
+</head>
+<body>
+
+<div>
+
+
+    <div>
+        <h2>
+            Добавить совет:
+        </h2>
+    </div>
+
+
+    <form action="/add_advice" accept-charset="UTF-8" method="POST">
+
+
+        <div>
+            <label for="field4">
+                Выбрать категорию:
+            </label>
+            <select name="category" id="field4" required="required">
+                <option id="field4-1" value="Общее">
+
+                </option>
+            </select>
+        </div>
+
+
+        <div>
+            <label for="field2">
+                Текст совета:
+            </label>
+            <textarea name="text" id="field2"></textarea>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Готово">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
